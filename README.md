@@ -24,3 +24,4 @@ The reason why GBFlash is fast is not only due to the USB direct connection but 
 
 Recently, I got in touch with Lesserkuma, hoping that FlashGBX can directly support GBFlash so that there is no need to simulate GBXcart to achieve the connection with FlashGBX. I am honored to have received his support. I am extremely grateful to Lesserkuma. And now, FLASHGBX has officially supported GBFLASH.  
 
+![图片](https://github.com/user-attachments/assets/ffc26393-fcba-4cdb-975d-0cc291c6d87a)
