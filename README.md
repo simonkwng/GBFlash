@@ -7,12 +7,9 @@ In terms of hardware, GBFlash utilizes a 32-bit ARM processor and connects direc
 
 
 GBFlash needs to work in conjunction with FLASHGBX. I am extremely grateful to Lesserkuma, the author of FlashGBX, for creating such a useful burning software for us retro game enthusiasts. To enable FlashGBX to connect directly to GBFlash, I have carried out some work:
-
-● Developed a USB-Serial driver on the microcontroller to simulate CH340.
-
-● Analyzed the FlashGBX source code to sort out the FlashGBX communication protocol and ported the protocol to GBFlash.
-
-● Disguised GBFLASH as GBXcart, including the hardware version number and software version number.
+* Developed a USB-Serial driver on the microcontroller to simulate CH340.
+*Analyzed the FlashGBX source code to sort out the FlashGBX communication protocol and ported the protocol to GBFlash.
+* Disguised GBFLASH as GBXcart, including the hardware version number and software version number.
 
 
 Through the above efforts, GBFLASH can successfully connect to the official version of FlashGBX (without any modifications) and operate normally. The read and write speed of GBFlash is several times faster than that of GBXcart, which is indeed very impressive. It greatly reduces the game burning time, especially for some large-capacity game cards.
